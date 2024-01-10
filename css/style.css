@@ -1,3 +1,22 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "img dl";
+}
+
+main img {
+    grid-area: img;
+    margin: 0 auto;
+}
+
+main dl {
+    font-size: large;
+    grid-area: dl;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
 h1 sup {
     font-size: x-small;
 }
